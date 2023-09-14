@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.LoginSignup.MakeSelection"
+    android:background="@color/white"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:onClick="OnBackPressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/general_back_icon"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget\nPassword"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/league_spartan_black"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select contact detail to reset your password"
+            android:textSize="18sp"
+            android:fontFamily="@font/muli"
+            android:layout_marginTop="3dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_for_fp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mobile_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/mobile_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:id="@+id/mobile_title"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Via Mobile Number"
+                android:layout_centerVertical="true"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/muli_black"
+                android:layout_toRightOf="@id/mobile_icon"
+                android:layout_marginTop="30dp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/mobile_des"-->
+<!--                android:layout_width="220dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="+919672865580"-->
+<!--                android:textSize="21sp"-->
+<!--                android:fontFamily="@font/muli"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_toRightOf="@id/mobile_icon"-->
+<!--                android:layout_below="@id/mobile_title"/>-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/common_effect" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_for_fp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mail_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/mail_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/mail_title"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Via mail ID"
+                android:layout_centerVertical="true"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/muli_black"
+                android:layout_toRightOf="@id/mail_icon"
+                android:layout_marginTop="30dp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/mail_des"-->
+<!--                android:layout_width="220dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="an@gmail.com"-->
+<!--                android:textSize="15sp"-->
+<!--                android:fontFamily="@font/muli"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_toRightOf="@id/mail_icon"-->
+<!--                android:layout_below="@id/mail_title"/>-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/common_effect" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

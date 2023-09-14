@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.CityGuide" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:windowDisablePreview">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:colorEdgeEffect">#00FFFFFF</item>
+    </style>
+
+    <!--Menu Style-->
+    <style name="navigationTheme">
+
+        <!--Color of text and icon when selected-->
+        <item name="colorPrimary">@color/black</item>
+
+        <!--Background color when selected-->
+        <item name="colorControlHighlight">#A6A6A6</item>
+
+        <item name="android:colorEdgeEffect">@color/black</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="simple" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/home_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+
+</resources>

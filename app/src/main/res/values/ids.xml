@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="powered_by_line" type="id" />
+    <item name="background_image" type="id" />
+    <item name="background_gradient" type="id" />
+</resources>
